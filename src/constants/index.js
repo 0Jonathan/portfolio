@@ -18,13 +18,16 @@ import {
     c,
     meta,
     starbucks,
-    // inprogress,
+    lereacteur,
+    school42,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    saas_shirt,
+    metaverse,
   } from "../assets";
   
   export const navLinks = [
@@ -34,7 +37,7 @@ import {
     },
     {
       id: "work",
-      title: "Works",
+      title: "Work",
     },
     {
       id: "contact",
@@ -118,31 +121,33 @@ import {
   
   const experiences = [
     {
-      title: "",
-      company_name: "",
-      // icon: inprogress,
+      title: "Formation FullStack Web & Application Mobile",
+      company_name: "Le Réacteur",
+      icon: lereacteur,
       iconBg: "#383E56",
-      // date: "March 2020 - April 2021",
+      date: "03/2020 - 05/2020",
       points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+        "HTML CSS JavaScript",
+        "Front-End & Back-End",
+        "React React Native",
+        "One-Page, E-Commerce, Blog, Corporate, Forum - React",
+        "Mobile Application - React Native",
+        "SEO",
+      ],
+    },
+    {
+      title: "Expert  informatique",
+      company_name: "École 42",
+      icon: school42,
+      iconBg: "#E6DEDD",
+      date: "11/2022 - 11/2023",
+      points: [
+        "C",
+        "C++",
+        "HTML CSS Javascrit JQuery",
+        "VM",
+      ],
+    },
     // {
     //   title: "Web Developer | Content Creator",
     //   company_name: "Shopify",
@@ -167,32 +172,32 @@ import {
     //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
     //     "Implementing responsive design and ensuring cross-browser compatibility.",
     //     "Participating in code reviews and providing constructive feedback to other developers.",
-    ""
-      ],
-    },
+    // ""
+    //   ],
+    // },
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "I thought it was impossible to make a website as beautiful as our product, but Jonathan proved me wrong.",
+      name: "Lisa Buckhee",
       designation: "CFO",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "I've never met a web developer who truly cares about their clients' success like Jonathan does.",
+      name: "David Martèz",
       designation: "COO",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "After Jonathan optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Patricia Chang",
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -201,16 +206,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "SaaS T-Shirt",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "<EN> A software for designing and selling custom t-shirts, featuring design tools and e-commerce integration. <FR> Un logiciel pour concevoir et vendre des t-shirts personnalisés, avec des outils de conception et une intégration e-commerce.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "vite",
           color: "green-text-gradient",
         },
         {
@@ -218,34 +223,34 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: saas_shirt,
+      source_code_link: "https://github.com/0Jonathan/saas_shirtmodel",
     },
     {
-      name: "Job IT",
+      name: "Metaverse",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "<EN> One-page website with multiple different worlds. <FR> Un site web One-page avec différents monde.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "next.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "framer-motion",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: metaverse,
+      source_code_link: "https://github.com/0Jonathan/metaverse",
     },
     {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        " <EN> A comprehensive travel booking platform that allows users to book flights, hotels, etc. With curated recommendations for popular destinations. <FR> Une plateforme complète de réservation de voyages qui permet aux utilisateurs de réserver des vols, des hôtels. Il propose des recommandations personnalisées pour les destinations populaires.",
       tags: [
         {
           name: "nextjs",
@@ -261,7 +266,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/0Jonathan/travel_guide",
     },
   ];
   

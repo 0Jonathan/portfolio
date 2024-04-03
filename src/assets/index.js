@@ -25,11 +25,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import inprogress from './company/inprogress.png';
+import lereacteur from './company/lereacteur.png';
+import school42 from './company/school42.png';
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import saas_shirt from "./saas_shirt.png";
+import metaverse from './metaverse.png';
 
 export {
   logo,
@@ -55,10 +58,13 @@ export {
   threejs,
   meta,
   shopify,
+  lereacteur,
+  school42,
   starbucks,
-  inprogress,
   tesla,
   carrent,
   jobit,
   tripguide,
+  saas_shirt,
+  metaverse,
 };

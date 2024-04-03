@@ -52,7 +52,7 @@ const Navbar = () => {
           />
           <label htmlFor="lang-toggle" className="label">
             <span className="inner-circle"></span>
-            <span className="switch-text">EN | FR</span>
+            <span className="switch-text">FR | EN</span>
           </label>
         </div>
 
